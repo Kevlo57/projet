@@ -1,8 +1,8 @@
-#include "Game.h"
+#include "Game.hpp"
 
-int main(int argc, char *argv[]){
+int main(){
 	Game g;
-	g.Start();
-	g.Stop();
+	g.Launch();
+
 	return 0;
 }
